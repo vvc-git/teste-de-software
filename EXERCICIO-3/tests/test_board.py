@@ -6,16 +6,16 @@ from src.puzzle_game import PuzzleGame
 
 class TestStatmentCoverage(unittest.TestCase):
 
-    # 1 - 2(T) - 3(T) -  4(T) - 5(T) - 6(T) - 7(T) - 8(T)
+    # # 1 - 2(T) - 3(T) -  4(T) - 5(T) - 6(T) - 7(T) - 8(T)
     def test_pega_valor_com_linha_com_valor_coluna_vazia(self):
-        # INLINE FIXTURE SETUP
-        puzzle_game = PuzzleGame(2)
-        shuffler = TestingShufflerPuzzleGame2x2To1X32()
-        shuffler.shuffle(puzzle_game)
-        # EXERCISE SUT
-        result = puzzle_game.get_tile(2, 1)
-        # RESULT VERIFICAtION
-        self.assertEqual(3, result)
+         # INLINE FIXTURE SETUP
+         puzzle_game = PuzzleGame(2)
+         shuffler = TestingShufflerPuzzleGame2x2To1X32()
+         shuffler.shuffle(puzzle_game)
+         # EXERCISE SUT
+         result = puzzle_game.get_tile(2, 1)
+         # RESULT VERIFICAtION
+         self.assertEqual(3, result)
     
     # 1 - 2(T) - 3(T) -  4(T) - 5(T) - 6(F) - 9
     def test_pega_valor_vazio(self):
@@ -28,7 +28,7 @@ class TestStatmentCoverage(unittest.TestCase):
         # RESULT VERIFICAtION
         self.assertEqual(' ', result)
 
-    # 1 - 2(T)
+    # 1 - 2(F) - 10
     def test_linha_menor_que_zero(self):
         # INLINE FIXTURE SETUP
         puzzle_game = PuzzleGame(2)

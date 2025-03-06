@@ -1,0 +1,7 @@
+- Você acha que as regras de definição de reuso (Seção 2. 2) facilitou a especificação /
+implementação dos testes de aceitação? Sim ou Não? Por quê?
+
+Sim, porque as regras de definição de reuso facilitam a reutilização de testes já existentes.
+
+Por exemplo, ao definir regras claras, foi possível reaproveitar testes e regras que já haviam sido criadas para a feature SuccessfulTermination na nova feature desenvolvida, garantindo maior consistência.
+

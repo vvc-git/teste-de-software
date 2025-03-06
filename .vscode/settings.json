@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./EXERCICIO-2/src"
+    ]
+}

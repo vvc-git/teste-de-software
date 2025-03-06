@@ -16,8 +16,6 @@ class MockTests(unittest.TestCase):
         # Posição inincial do tabuleiro (depois do embaralhamento):
         # 1  2
         # -  3
-        
-        
 
     '''
     PARTE 1 
